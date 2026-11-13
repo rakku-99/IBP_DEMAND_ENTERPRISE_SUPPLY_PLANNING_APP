@@ -13,7 +13,7 @@ Copy these files together into `by ibp tests v2.4`:
 ## Run
 
 ```powershell
-cd "C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5"
+cd "C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5"
 C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe -m pip install -r requirements.txt
 C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe -m streamlit run twin_app.py
 ```
@@ -21,7 +21,7 @@ C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe -m streamlit run twin_app.py
 The default input folder is:
 
 ```text
-C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES
+C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES
 ```
 
 Every generated file is saved under:
@@ -35,19 +35,19 @@ The folder is created automatically. Names are timestamped (`_06Nov_1035`, with 
 Command-line workbook/GIF/findings run:
 
 ```powershell
-C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe twin_engine.py --folder "C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES" --simulation MONTHLY_WHATIF
+C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe twin_engine.py --folder "C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES" --simulation MONTHLY_WHATIF
 ```
 
 Standalone inventory report:
 
 ```powershell
-C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe inv_balance_report.py "C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES"
+C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe inv_balance_report.py "C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES"
 ```
 
 Standalone DFU-loss reconciliation:
 
 ```powershell
-C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe dfu_loss_fix.py "C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES" 2026-10 2027-02
+C:\Users\rakesh.ranjan\venvs\ibp\Scripts\python.exe dfu_loss_fix.py "C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES" 2026-10 2027-02
 ```
 
 ## v2.5.0 business rules
