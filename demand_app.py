@@ -13,7 +13,7 @@ import streamlit as st
 
 from demand_engine import DM_VERSION, DemandModel, build_demand_model, demand_excel_bytes, write_demand_excel
 
-DEFAULT_FOLDER = r"C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES"
+DEFAULT_FOLDER = r"C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES"
 
 st.set_page_config(page_title="Demand Management Checks", page_icon="📈", layout="wide")
 
