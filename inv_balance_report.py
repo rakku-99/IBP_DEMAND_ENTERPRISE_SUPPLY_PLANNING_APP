@@ -37,7 +37,7 @@ import datetime as dt
 import numpy as np
 import pandas as pd
 
-DEFAULT_FOLDER = r"C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES"
+DEFAULT_FOLDER = r"C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES"
 APP_OUTPUT_DIRNAME = "APP_OUTPUT_FILES"
 UNIT = 1000.0
 MEASURES = ["Opening inventory", "Production", "Receipts (transfer/purchase/sched.)", "Consumption (to next stage)",
