@@ -21,7 +21,7 @@ from twin_engine import (APP_OUTPUT_DIRNAME, APP_VERSION, TwinModel, build_twin,
 
 DEFAULT_FOLDER = os.environ.get(
     "ESP_TWIN_DATA_FOLDER",
-    r"C:\Users\rakesh.ranjan\OneDrive - Aditya Birla Group\python projects\by ibp tests v2.5\ESP_RUN_FILES")
+    r"C:\Users\rakesh.ranjan\python projects\by ibp tests v2.5\ESP_RUN_FILES")
 DEFAULT_SIMULATION = "MONTHLY_WHATIF"
 
 st.set_page_config(page_title="ESP Digital Twin", page_icon="🏭", layout="wide")
